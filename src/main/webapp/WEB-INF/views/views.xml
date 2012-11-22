@@ -21,11 +21,11 @@
 	</definition>
 	
 	<definition name="spitters/view" extends="template">
-		<put-attribute name="content" value="WEB-INF/views/spitters/view.jsp"/>
+		<put-attribute name="content" value="/WEB-INF/views/spitters/view.jsp"/>
 	</definition>
 	
 	<definition name="spitters/fail" extends="template">
-		<put-attribute name="content" value="WEB-INF/views/spitters/error.jsp"/>
+		<put-attribute name="content" value="/WEB-INF/views/spitters/authFail.jsp"/>
 		<put-attribute name="side" value="/WEB-INF/views/tiles/signinsignup.jsp"/>
 	</definition>
 </tiles-definitions>

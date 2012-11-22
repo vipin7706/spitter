@@ -67,7 +67,7 @@ public class SpitterController {
 	@RequestMapping(value = "/fail", method = RequestMethod.GET)
 	public String authFailure(Model model){
 		model.addAttribute("AuthError", "Wrong Username or Password");
-		return "spitters/view";
+		return "spitters/fail";
 	}
 
 	@RequestMapping(value = "/{username}", method = RequestMethod.GET)

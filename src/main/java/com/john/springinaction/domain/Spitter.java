@@ -34,7 +34,7 @@ public class Spitter implements Serializable {
 
   private Long id;
   
-  private Roles role;
+  private Roles role;;
 
   //<start id="java_SpitterValidated" /> 
   @Size(min=3, max=20, message=
